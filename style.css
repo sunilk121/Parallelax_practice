@@ -72,3 +72,25 @@ section{
     border-radius: 10px;
   
 }
+.down-arrow{
+    font-size: 3rem;
+    position:absolute;
+    bottom: 20px;
+    font-weight: bolder;
+    color: blue;
+    transform: rotate(90deg);
+    animation: go-down 2s ease-in infinite;
+}
+@keyframes go-down {
+    0%{
+        bottom: 50px;
+        right:50%
+
+
+    }
+    100%{
+        bottom:5px;
+        right:50%
+    }
+    
+}
